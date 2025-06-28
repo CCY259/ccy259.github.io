@@ -1,0 +1,29 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+$body-color: #e4d2d8;
+$background-color: #fef4f4;
+$text-color: black;
+$link-color: #825961;
+
+p {
+     text-align: justify;
+   }
+
+
+$paragraph-indent: false;
+
+
+
+/* system typefaces */
+$serif      : "Computer Modern Serif", "PingFang SC", "Hiragino Sans GB", "Source Han Serif SC";
+$sans-serif : "Computer Modern Serif", "PingFang SC", "Hiragino Sans GB", "Source Han Serif SC";
+$monospace  : Monaco, Consolas, "Lucida Console", monospace;
+
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials

@@ -20,9 +20,9 @@ $paragraph-indent: false;
 
 
 /* system typefaces */
-$serif      : "Computer Modern Serif", "PingFang SC", "Hiragino Sans GB", "Source Han Serif SC";
-$sans-serif : "Computer Modern Serif", "PingFang SC", "Hiragino Sans GB", "Source Han Serif SC";
-$monospace  : Monaco, Consolas, "Lucida Console", monospace;
+$serif      : "Playfair Display", Georgia, "Times New Roman", Times, serif;
+$sans-serif : "Open Sans", Arial, Helvetica, sans-serif;
+$monospace  : "Courier New", Courier, monospace;
 
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin

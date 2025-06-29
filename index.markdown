@@ -1,16 +1,35 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: splash
-header:
-  # overlay_color: "#000000" #"#5e616c"
-  overlay_image: /assets/images/math-lab.png
-  overlay_filter: 0.5
-  actions:
-    - label: "See the Recent Posts"
-      url: "/home/"
-excerpt: >
-  A Dangerous Place in Laurel County   
+title: "Home"
+layout: home
+author_profile: false
+excerpt: "Just Some Random Thoughts \n"
+header: 
+    overlay_image: /assets/images/home-pic-wall.jpg
+    caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/white-desk-lamp-beside-green-plant-BlIhVfXbi9s)"
+    overlay_filter: 0.2
+feature_row: 
+    - image_path: /assets/images/p1.jpg
+      alt: "placeholder image 1"
+      title: "Placeholder 1"
+      excerpt: "This is some sample content that goes here with **Markdown** formatting."
+      url: "#test-link"
+      btn_label: "Read More"
+      btn_class: "btn--inverse"
+feature_row2: 
+    - image_path: /assets/images/p2.jpg
+      alt: "Virtual Photography"
+      title: "Virtual Photography"
+      excerpt: "I had a PS2 when I was small, and I fell in love with games since then. Now the games look incredibly beautiful and realistic. That’s when I started getting into virtual photography. instead of just focusing on beating enemies and bosses."
+      url: "photos"
+      btn_label: "See More"
+      btn_class: "btn--inverse"
 ---
+> Great mathematicians have doubts and get discouraged, but usually they can't stop
+doing mathematics anyway, and, when they do, they miss it very deeply. 
 
+<p style="text-align: right;"><i>"I Want to Be a Mathematician" by Paul Halmos</i></p>
+
+<br>
+
+{% include feature_row type="left" %}
+{% include feature_row id = "feature_row2" type="right" %}

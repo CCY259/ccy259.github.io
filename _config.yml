@@ -66,9 +66,9 @@ minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "
 
 locale: "en-GB"
 
-title: "Math Lab"
+title: "Joshua's Thoughts"
 title_separator: "|"
-subtitle: "A Dangerous Place in Laurel County"
+subtitle: "A Room of Impertinent Reflections"
 name: "Joshua"
 description: "A Math Lab specializing Algebra"
 
@@ -120,3 +120,18 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+collections:
+  photos:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  # _photos
+  - scope:
+      path: ""
+      type: photos
+    values:
+      layout: single
+      author_profile: false
+      share: true

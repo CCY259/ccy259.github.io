@@ -15,6 +15,7 @@ $primary-color: #261E47;
 $text-color: black;
 $link-color: #113285;
 $primary-color: #261E47;
+$muted-text-color: #261E47;
 
 /*
 $body-color:  white;
@@ -81,6 +82,11 @@ body {
     inset: 0;
   }
 
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 
   a + a {
     opacity: 0.5;

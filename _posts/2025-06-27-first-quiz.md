@@ -4,7 +4,7 @@ title:  "My First Quiz in Linear Algebra"
 date:   2025-06-27 15:30:00 +0800
 categories: Linear-Algebra
 header:
-   overlay_color: "#825961"
+   overlay_color: "#261E47"
 excerpt: "A funny quiz to test the understanding"
 ---
 

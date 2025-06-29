@@ -12,6 +12,7 @@ $masthead-link-color: #261E47;
 $border-color: #81C7D4;
 $primary-color: #261E47;
 */
+$text-color: black;
 $link-color: #113285;
 $primary-color: #261E47;
 
@@ -36,11 +37,63 @@ $paragraph-indent: false;
 
 
 /* system typefaces */
-$serif      : "Playfair Display", Georgia, "Times New Roman", Times, serif;
-$sans-serif : "Open Sans", Arial, Helvetica, sans-serif;
+$serif      : "Spectral", Times, serif;
+$sans-serif : Helvetica, Arial, sans-serif;
 $monospace  : "Courier New", Courier, monospace;
+
+
+
+
 
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $serif;
+  min-height: 100%;
+  text-rendering: optimizeLegibility; /* enable common ligatures and kerning */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 130%;
+  color: $text-color;
+  font-family: $sans-serif;
+}
+
+.archive__item-title {
+  margin-bottom: 0.25em;
+  font-family: $serif;
+  line-height: initial;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  a[rel="permalink"]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+
+
+  a + a {
+    opacity: 0.5;
+  }
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+  
+}
+
 

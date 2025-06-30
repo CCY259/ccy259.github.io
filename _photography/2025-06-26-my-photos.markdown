@@ -1,0 +1,43 @@
+---
+title:  "Virtual Photography"
+excerpt: "Shots Taken in Games"
+header:
+  overlay_color: "#000123"
+  overlay_filter: "0.2"
+  overlay_image: /assets/images/p1.jpg
+  teaser: /assets/images/p1.jpg
+gallery:
+  - url: /assets/images/p1.jpg
+    image_path: /assets/images/p1.jpg
+    alt: "No photo"
+  - url: /assets/images/p2.jpg
+    image_path: /assets/images/p2.jpg
+    alt: "No photo"
+  - url: /assets/images/p3.jpg
+    image_path: /assets/images/p3.jpg
+    alt: "No photo"
+  - url: /assets/images/p4.jpg
+    image_path: /assets/images/p4.jpg
+    alt: "No photo"
+  - url: /assets/images/p5.jpg
+    image_path: /assets/images/p5.jpg
+    alt: "No photo"
+  - url: /assets/images/p6.png
+    image_path: /assets/images/p6.png
+    alt: "No photo"
+  - url: /assets/images/p7.png
+    image_path: /assets/images/p7.png
+    alt: "No photo"
+  - url: /assets/images/p8.png
+    image_path: /assets/images/p8.png
+    alt: "No photo"
+  - url: /assets/images/p9.png
+    image_path: /assets/images/p9.png
+    alt: "No photo"
+---
+
+I had a PS2 when I was small, and I fell in love with games since then. Now the games look incredibly beautiful and realistic. That’s when I started getting into virtual photography. instead of just focusing on beating enemies and bosses. The shots are so satisfying!
+
+# Ghost of Tsushima
+{% include gallery %}
+

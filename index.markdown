@@ -17,10 +17,10 @@ feature_row:
       btn_class: "btn--inverse"
 feature_row2: 
     - image_path: /assets/images/p2.jpg
-      alt: "Virtual Photography"
-      title: "Virtual Photography"
-      excerpt: "I had a PS2 when I was small, and I fell in love with games since then. Now the games look incredibly beautiful and realistic. That’s when I started getting into virtual photography. instead of just focusing on beating enemies and bosses."
-      url: "photos"
+      alt: "Photography"
+      title: "Photography"
+      excerpt: "I love photography, both in reality and in game."
+      url: "photography"
       btn_label: "See More"
       btn_class: "btn--inverse"
 ---
@@ -32,4 +32,4 @@ doing mathematics anyway, and, when they do, they miss it very deeply.
 <br>
 
 {% include feature_row type="left" %}
-{% include feature_row id = "feature_row2" type="right" %}
+{% include feature_row id = "feature_row2" type="left" %}

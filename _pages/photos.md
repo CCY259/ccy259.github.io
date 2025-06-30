@@ -1,10 +1,10 @@
 ---
-title: "Photos"
+title: "Photography"
 layout: collection
-permalink: /photos/
-collection: photos
+permalink: /photography/
+collection: photography
 entries_layout: grid
 classes: wide
 ---
 
-Sample document listing for the collection `_photos`.
+I love photography, both in reality and in game.

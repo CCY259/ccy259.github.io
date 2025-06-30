@@ -122,7 +122,7 @@ tag_archive:
   path: /tags/
 
 collections:
-  photos:
+  photography:
     output: true
     permalink: /:collection/:path/
 
@@ -130,7 +130,7 @@ defaults:
   # _photos
   - scope:
       path: ""
-      type: photos
+      type: photography
     values:
       layout: single
       author_profile: false

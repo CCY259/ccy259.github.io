@@ -9,6 +9,7 @@ header:
   overlay_color: "#000123"
   overlay_filter: "0.4"
   overlay_image: /assets/images/p1.jpg
+  teaser: /assets/images/p1.jpg
 nasilemak: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"` BRUH NASI LEMAK'
 gallery:

@@ -23,6 +23,14 @@ feature_row2:
       url: "photography"
       btn_label: "See More"
       btn_class: "btn--inverse"
+feature_row3: 
+    - image_path: /assets/images/p2.jpg
+      alt: "Under Construction"
+      title: "Origami"
+      excerpt: "Under Construction"
+      url: "photography"
+      btn_label: "See More"
+      btn_class: "btn--inverse"
 ---
 > Great mathematicians have doubts and get discouraged, but usually they can't stop
 doing mathematics anyway, and, when they do, they miss it very deeply. 
@@ -31,5 +39,11 @@ doing mathematics anyway, and, when they do, they miss it very deeply.
 
 <br>
 
-{% include feature_row type="left" %}
+<h3 class="archive__subtitle">My Interest</h3>
+<div style="line-height:150%;">
+    <br>
+</div>
+
 {% include feature_row id = "feature_row2" type="left" %}
+
+{% include feature_row id = "feature_row3" type="left" %}

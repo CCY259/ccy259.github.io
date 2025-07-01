@@ -34,10 +34,41 @@ gallery:
   - url: /assets/images/p9.png
     image_path: /assets/images/p9.png
     alt: "No photo"
+  - url: /assets/images/p10.jpg
+    image_path: /assets/images/p10.jpg
+    alt: "No photo"
+FF_XVI:
+  - url: /assets/images/ff16-1.jpg
+    image_path: /assets/images/ff16-1.jpg
+    alt: "No photo"
+  - url: /assets/images/ff16-2.jpg
+    image_path: /assets/images/ff16-2.jpg
+    alt: "No photo"
+  - url: /assets/images/ff16-3.jpg
+    image_path: /assets/images/ff16-3.jpg
+    alt: "No photo"
+  - url: /assets/images/ff16-4.jpg
+    image_path: /assets/images/ff16-4.jpg
+    alt: "No photo"
+  - url: /assets/images/ff16-5.jpg
+    image_path: /assets/images/ff16-5.jpg
+    alt: "No photo"
+  - url: /assets/images/ff16-6.jpg
+    image_path: /assets/images/ff16-6.jpg
+    alt: "No photo"
+  - url: /assets/images/ff16-7.jpg
+    image_path: /assets/images/ff16-7.jpg
+    alt: "No photo"
+  - url: /assets/images/ff16-8.jpg
+    image_path: /assets/images/ff16-8.jpg
+    alt: "No photo"
 ---
 
 I had a PS2 when I was small, and I fell in love with games since then. Now the games look incredibly beautiful and realistic. That’s when I started getting into virtual photography. instead of just focusing on beating enemies and bosses. The shots are so satisfying!
 
-# Ghost of Tsushima
-{% include gallery %}
+## Ghost of Tsushima
+{% include gallery layout="half" %}
+
+## Final Fantasy XVI
+{% include gallery id = "FF_XVI" layout = "half" %}
 

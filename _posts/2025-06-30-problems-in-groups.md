@@ -12,8 +12,13 @@ toc_sticky: true
 
 <script src="http://math.chapman.edu/~jipsen/latexmathjax/latexmathjax.js"></script>
 
-<object data="/files/problems-in-groups.pdf" width="1000" height="800" type='application/pdf'/>
+Here are some group theory practice questions I compiled for the [Algebra class](http://localhost:4000/algebra/2025/06/27/algebra.html) held in March. The problems are not ordered by difficulty and are primarily for my own training, not for others.
 
+I didn't write complete solutions since everything was just a scramble during our discussions!
+
+<object data="/assets/files/problems-in-groups.pdf" type="application/pdf" width="100%" height="100%">
+  <p>It appears your browser does not support PDF embedding. You can <a href="/assets/pdfs/problems-in-groups.pdf">download the PDF</a> instead.</p>
+</object>
 
 
 

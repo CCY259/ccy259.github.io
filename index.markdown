@@ -39,11 +39,14 @@ doing mathematics anyway, and, when they do, they miss it very deeply.
 
 <br>
 
+<!--
 <h3 class="archive__subtitle">My Interest</h3>
 <div style="line-height:150%;">
     <br>
 </div>
 
+
 {% include feature_row id = "feature_row2" type="left" %}
 
 {% include feature_row id = "feature_row3" type="left" %}
+-->

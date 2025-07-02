@@ -38,6 +38,8 @@ plugins:
   - jekyll-paginate
   - jekyll-include-cache
 
+markdown: kramdown
+
 url: https://ccy259.github.io
 baseurl: ""
 repository: ccy259/ccy259.github.io

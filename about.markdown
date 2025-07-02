@@ -1,18 +1,13 @@
 ---
-layout: page
+layout: single
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<figure style="width: 200px" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/cheems.png" alt="">
+</figure> I am Joshua, a math student interested in Algebra. My research interest lies in Abstract Algebra and Linear Algebra, through which my supervisor has guided me to explore the research fields of Functional Identities and Linear Preserver Problems.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+<!--
+![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/cheems.png){: .align-left} I am Joshua, a math student interested in Algebra. My research interest lies in Abstract Algebra and Linear Algebra, through which my supervisor has guided me to explore the research fields of Functional Identities and Linear Preserver Problems.
+ -->

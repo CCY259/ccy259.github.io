@@ -12,7 +12,7 @@ toc_sticky: true
 
 <script src="http://math.chapman.edu/~jipsen/latexmathjax/latexmathjax.js"></script>
 
-Here are some group theory practice questions I compiled for the [Algebra class](http://localhost:4000/algebra/2025/06/27/algebra.html) held in March. The problems are not ordered by difficulty and are primarily for my own training, not for others.
+Here are some group theory practice questions I compiled for the [Algebra class](https://ccy259.github.io/algebra/2025/06/27/algebra.html) held in March. The problems are not ordered by difficulty and are primarily for my own training, not for others.
 
 I didn't write complete solutions since everything was just a scramble during our discussions!
 

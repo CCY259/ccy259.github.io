@@ -17,7 +17,7 @@ Here are some group theory practice questions I compiled for the [Algebra class]
 I didn't write complete solutions since everything was just a scramble during our discussions!
 
 <object data="/assets/files/problems-in-groups.pdf" type="application/pdf" width="100%" height="100%">
-  <p>It appears your browser does not support PDF embedding. You can <a href="/assets/pdfs/problems-in-groups.pdf">download the PDF</a> instead.</p>
+  <p>It appears your browser does not support PDF embedding. You can <a href="/assets/files/problems-in-groups.pdf">download the PDF</a> instead.</p>
 </object>
 
 

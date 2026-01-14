@@ -25,7 +25,7 @@ excerpt: "Diagonalizable matrices, eigenvalues and eigenvectors"
 
 
 
-**Problem 3.** Let $c\in\mathbb{F}$. Show that an $n \times n$ matrix $A$ with characteristic polynomial $c_A(\lambda) = (\lambda - c)^n$ is diagonalizable if and only if $A = c I_n$.
+**Problem 3.** Let $\alpha\in\mathbb{F}$. Show that an $n \times n$ matrix $A$ with characteristic polynomial $c_A(\lambda) = (\lambda - \alpha)^n$ is diagonalizable if and only if $A = \alpha I_n$.
 
 
 **Problem 4.** Suppose that an $n \times n$ matrix $A$ has $A^k = 0$ for some integer $k > n$. Show that $A^n = 0$.

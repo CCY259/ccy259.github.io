@@ -18,7 +18,7 @@ excerpt: "Diagonalizable matrices, eigenvalues and eigenvectors"
 
 (i) If $A$ is diagonalizable, show that $(A^2 + I_n)^t$ is diagonalizable.
 
-(ii) If $A$ and $B$ are simultaneously diagonalizable, i.e., there exits an invertible matrix $P \in M_n(\mathbb{R})$ such that $P^{-1}AP$ and $P^{-1}BP$ are diagonal matrices, show that $A^2 - B^2$ and $(A + B)(A - B)$ have the same eigenvalues.
+(ii) If $A$ and $B$ are simultaneously diagonalizable, i.e., there exists an invertible matrix $P \in M_n(\mathbb{R})$ such that $P^{-1}AP$ and $P^{-1}BP$ are diagonal matrices, show that $A^2 - B^2$ and $(A + B)(A - B)$ have the same eigenvalues.
 
 	
 **Problem 2.** Let $\varphi : \mathbb{R}^3 \to \mathbb{R}^3$ be a linear map. If $\varphi$ has three distinct eigenvalues, show that there exists a vector $u \in \mathbb{R}^3$ such that $u, \varphi(u), \varphi^2(u)$ are linearly independent. Here, $\varphi^2 = \varphi \circ \varphi$.

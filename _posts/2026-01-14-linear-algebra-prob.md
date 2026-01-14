@@ -2,7 +2,7 @@
 layout: single
 title:  "Some Problems in Linear Algebra"
 date:   2026-01-14 08:30:00 +0800
-categories: Linear-Algebra, LaTeX
+categories: Linear-Algebra LaTeX
 header:
    overlay_color: "#261E47"
 excerpt: "Diagonalizable matrices, eigenvalues and eigenvectors"

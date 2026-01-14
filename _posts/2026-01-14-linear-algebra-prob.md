@@ -15,7 +15,9 @@ excerpt: "Diagonalizable matrices, eigenvalues and eigenvectors"
 
 
 **Problem 1.** Let $A, B \in M_n(\mathbb{R})$.
+
 (i) If $A$ is diagonalizable, show that $(A^2 + I_n)^t$ is diagonalizable.
+
 (ii) If $A$ and $B$ are simultaneously diagonalizable, i.e., there exits an invertible matrix $P \in M_n(\mathbb{R})$ such that $P^{-1}AP$ and $P^{-1}BP$ are diagonal matrices, show that $A^2 - B^2$ and $(A + B)(A - B)$ have the same eigenvalues.
 
 	
@@ -31,7 +33,7 @@ excerpt: "Diagonalizable matrices, eigenvalues and eigenvectors"
 
 **Problem 5.** Let $\psi$ and $\phi$ be linear maps on a vector space $V$ over a field. If there exists an ordered basis $\mathcal{B}$ for $V$ such that 
 $\lbrack \psi\rbrack_{\mathcal{B}}$ and 
-$\lbrack \phi\rbrack_{\mathcal{B}}$ and  are both diagonal matrices, show that 
+$\lbrack \phi\rbrack_{\mathcal{B}}$ are both diagonal matrices, show that 
 $\psi \circ \phi = \phi \circ \psi$.
 
 	

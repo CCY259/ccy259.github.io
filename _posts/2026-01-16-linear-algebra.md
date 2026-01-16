@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Some Techniques in Linear Algebra"
-date:   2026-01-21 08:30:00 +0800
+date:   2026-01-16 08:30:00 +0800
 categories: Linear-Algebra LaTeX
 header:
    overlay_color: "#261E47"

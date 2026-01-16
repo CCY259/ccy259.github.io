@@ -58,7 +58,7 @@ Let $\psi:V\to V$ be linear map on an $n$-dimensional vector space $V$ over a fi
 
 $$
 \begin{equation*}
-U =\{v\in V: \psi(x)\in W\}.
+U =\{v\in V: \psi(v)\in W\}.
 \end{equation*}
 $$
 

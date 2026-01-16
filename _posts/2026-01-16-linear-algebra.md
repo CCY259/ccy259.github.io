@@ -34,17 +34,17 @@ $$
 4. If a linear map $\psi$ is involved and you have some elements, you could investigate their images if the elements themselve do not give useful information.
 5. When you want to study $\psi(W)$ where $W$ is a subspace of $V$, it is convenient to think about the restriction mapping $\psi\rvert_W$ since $\psi\rvert_W(W) = \psi(W)$. Now we can apply the Rank-Nullity Theorem to $\psi\rvert_W$.
 
-#### Example 1 
+#### Problem 1 
 Let $V$ be a $7$-dimensional vector space. Let $U$ and $W$ be subspaces of $V$ such that $\dim U = 4$ and $\dim W = 5$. Prove that $U \cap W \neq \{0\}$.
 
-#### Example 2
+#### Problem 2
 Let $\psi: V \to W$ be a linear map.
 
 (i) Show that there exists a subspace $U$ of $V$ such that $V = \ker\psi \oplus U$.
 
 (ii) Let $$\mathcal{B} = \{b_1, \dots, b_k\}$$ be a basis for $U$. Use this basis $\mathcal{B}$ to construct a basis for $\operatorname{im}\psi$. Justify your answer.
 
-#### Example 3 
+#### Problem 3 
 Let $\psi: V \to W$ be a linear map and let $U$ be a subspace of $V$. Prove that
 
 $$
@@ -53,7 +53,7 @@ $$
 \end{equation*}
 $$
 
-#### Example 4
+#### Problem 4
 Let $\psi:V\to V$ be linear map on an $n$-dimensional vector space $V$ over a field $\mathbb{F}$. Let $W$ be a subspace of $V$ and let
 
 $$
@@ -95,16 +95,16 @@ $$
    - Scalar multiplication.
 
 
-#### Example 5 
+#### Problem 5 
 Let $A,B\in M_n(\mathbb{R})$ be matrices such that $A^2 = B^2 = I_n$ and $\det A + \det B = 0$. Show that $\det(A+B) = 0$.
 
-#### Example 6
+#### Problem 6
 Let $A\in M_n(\mathbb{R})$ be a matrix of rank $k$ such that $A^2 = A$. Show that $\operatorname{rank}(A-I_n) = n - k$.
 
-#### Example 7
+#### Problem 7
 Let $A\in M_{n,m}(\mathbb{R})$ and $B\in M_{m,n}(\mathbb{R})$. If $I_n - AB$ is invertible, show that $I_m-BA$ is invertible.
 
-#### Example 8
+#### Problem 8
 Let $V$ and $W$ be finite-dimensional vector spaces over a field $\mathbb{F}$. Let $f:V\rightarrow W$ and $g:W\rightarrow V$ be linear maps such that $f(g(w)) =w$ for all $w\in W$. Show that there exist subspaces $V_1,V_2$ of $V$ which satisfy the following three conditions:
 1. $V = V_1\oplus V_2$.
 2. $g(f(v)) = 0$ for any $v\in V_1$.

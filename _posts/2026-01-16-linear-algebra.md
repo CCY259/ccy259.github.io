@@ -12,7 +12,7 @@ toc: true
 <!-- We need to put space before $$ and after $$ to make sure the equation is on the center. -->
 
 
-## The dimension problem and its inequality
+## The dimension problems and the inequalities
 ### Known results commonly used
 Let $V$ and $W$ be finite-dimensional vector spaces over a field.
 1. (Subspace Dimension Theorem) 

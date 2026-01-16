@@ -17,13 +17,14 @@ toc: true
 Let $V$ and $W$ be finite-dimensional vector spaces over a field.
 1. (Subspace Dimension Theorem) 
 $$
-\dim(V+W) = \dim V + \dim W - \dim (V\cap W).$$
+\dim(V+W) = \dim V + \dim W - \dim (V\cap W).
+$$
 2. (Rank-Nullity Theorem) Let $\psi:V\to W$ be a linear map. Then
 $$
 \operatorname{rank}\psi + \operatorname{null}\psi = \dim V.
 $$
 3. $W\subseteq V \Rightarrow \dim W\leq \dim V$.
-4. If $W\subseteq V$ and $\mathcal{B} = \{b_1,\dots, b_k\}$ is a basis for $W$, then $\mathcal{B}$ can be extended to a basis $\mathcal{C} = \{b_1,\dots, b_k, b_{k+1},\dots, b_n\}$ for $V$, where $n = \dim V$.
+4. If $W\subseteq V$ and $$\mathcal{B} = \{b_1,\dots, b_k\}$$ is a basis for $W$, then $\mathcal{B}$ can be extended to a basis $$\mathcal{C}=\{b_1,\dots, b_k, b_{k+1},\dots, b_n\}$$ for $V$, where $n = \dim V$.
 5. Let $v_1,\dots, v_k\in V$ be linearly independent vectors. Then $k\leq \dim V$.
 
 ### Strategies
@@ -41,10 +42,11 @@ Let $\psi: V \to W$ be a linear map.
 
 (i) Show that there exists a subspace $U$ of $V$ such that $V = \ker\psi \oplus U$.
 
-(ii) Let $\mathcal{B} = \{b_1, \dots, b_k\}$ be a basis for $U$. Use this basis $\mathcal{B}$ to construct a basis for $\operatorname{im}\psi$. Justify your answer.
+(ii) Let $$\mathcal{B} = \{b_1, \dots, b_k\}$$ be a basis for $U$. Use this basis $\mathcal{B}$ to construct a basis for $\operatorname{im}\psi$. Justify your answer.
 
 #### Example 3 
 Let $\psi: V \to W$ be a linear map and let $U$ be a subspace of $V$. Prove that
+
 $$
 \begin{equation*}
 \dim(\psi(U)) = \dim U - \dim(U \cap \ker \psi). 
@@ -53,14 +55,17 @@ $$
 
 #### Example 4
 Let $\psi:V\to V$ be linear map on an $n$-dimensional vector space $V$ over a field $\mathbb{F}$. Let $W$ be a subspace of $V$ and let
+
 $$
 \begin{equation*}
 U =\{v\in V: \psi(x)\in W\}.
 \end{equation*}
 $$
+
 (i) Show that $U$ is a subspace of $V$.
 
 (ii) Prove that 
+
 $$
 \begin{equation*}
 \dim W\leq \dim U \leq \dim W + \operatorname{null}\psi.

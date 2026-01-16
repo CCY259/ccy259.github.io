@@ -11,7 +11,7 @@ excerpt: "With Some Challenging Problems"
 <!-- We need to put space before $$ and after $$ to make sure the equation is on the center. -->
 
 
-## The dimension problem and its inequality.
+## The dimension problem and its inequality
 #### Known results commonly used
 Let $V$ and $W$ be finite-dimensional vector spaces over a field.
 1. (Subspace Dimension Theorem) 
@@ -57,11 +57,37 @@ $$
 $$
 
 
-## The problems on idempotent and nilpotent matrices
-
-
-
+## The matrix manipulation
 #### Known results commonly used
+1. $\det (AB) = \det(A)\det (B)$
+2. $\det(\alpha A) = \alpha^n \det(A)$ where $A\in M_n(\mathbb{F})$ and $\alpha \in\mathbb{F}$.
+3. $\operatorname{rank}(A+B) \leq \operatorname{rank}(A) + \operatorname{rank}(B)$
+4. $\operatorname{rank}(AB)\leq \min\{\operatorname{rank}(A),\operatorname{rank}(B)\}$
+5. $\operatorname{rank}(PAQ) = \operatorname{rank}(A)$ where $P$ and $Q$ are invertible matrices.
+6. Kernel and image of a linear map are classical subspaces considered when solving problems.
+7. Given two linear maps $\psi:U\to V$ and $\phi:V\to W$. Then $\phi\circ \psi = 0$ implies that $\operatorname{im}\psi \subseteq \ker\phi$.
+
 
 #### Strategies
+1. Deduce the result based on the given conclusion. 
+2. Always write out something to approach the hypothesis.
+3. Usual manipulations:
+   - Create the zero: $0 = A - A$.
+   - Create the identity: $I_n  = AA^{-1}$.
+   - Multiplication on left/right. Be careful that $(A-B)(A+B) = A^2 - B^2 + AB - BA$.
+   - Moving terms to LHS/RHS.
+   - Scalar multiplication.
+
+
+**Example 1.** Let $A,B\in M_n(\mathbb{R})$ be matrices such that $A^2 = B^2 = I_n$ and $\det A + \det B = 0$. Show that $\det(A+B) = 0$.
+
+**Example 2.** Let $A\in M_n(\mathbb{R})$ be a matrix of rank $k$ such that $A^2 = A$. Show that $\operatorname{rank}(A-I_n) = n - k$.
+
+**Example 3.** Let $A\in M_{n,m}(\mathbb{R})$ and $B\in M_{m,n}(\mathbb{R})$. If $I_n - AB$ is invertible, show that $I_m-BA$ is invertible.
+
+**Example 4.** Let $V$ and $W$ be finite-dimensional vector spaces over a field $\mathbb{F}$. Let $f:V\rightarrow W$ and $g:W\rightarrow V$ be linear maps such that $f(g(w)) =w$ for all $w\in W$. Show that there exist subspaces $V_1,V_2$ of $V$ which satisfy the following three conditions:
+1. $V = V_1\oplus V_2$.
+2. $g(f(v)) = 0$ for any $v\in V_1$.
+3. $g(f(v)) = v$ for any $v\in V_2$.
+
 

@@ -109,5 +109,3 @@ Let $V$ and $W$ be finite-dimensional vector spaces over a field $\mathbb{F}$. L
 1. $V = V_1\oplus V_2$.
 2. $g(f(v)) = 0$ for any $v\in V_1$.
 3. $g(f(v)) = v$ for any $v\in V_2$.
-
-

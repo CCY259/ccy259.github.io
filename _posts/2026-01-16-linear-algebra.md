@@ -78,7 +78,7 @@ $$
 1. $\det (AB) = \det(A)\det (B)$
 2. $\det(\alpha A) = \alpha^n \det(A)$ where $A\in M_n(\mathbb{F})$ and $\alpha \in\mathbb{F}$.
 3. $\operatorname{rank}(A+B) \leq \operatorname{rank}(A) + \operatorname{rank}(B)$
-4. $\operatorname{rank}(AB)\leq \min\{\operatorname{rank}(A),\operatorname{rank}(B)\}$
+4. $$\operatorname{rank}(AB)\leq \min\{\operatorname{rank}(A),\operatorname{rank}(B)\}$$
 5. $\operatorname{rank}(PAQ) = \operatorname{rank}(A)$ where $P$ and $Q$ are invertible matrices.
 6. Kernel and image of a linear map are classical subspaces considered when solving problems.
 7. Given two linear maps $\psi:U\to V$ and $\phi:V\to W$. Then $\phi\circ \psi = 0$ implies that $\operatorname{im}\psi \subseteq \ker\phi$.

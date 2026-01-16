@@ -7,14 +7,13 @@ header:
    overlay_color: "#261E47"
 excerpt: "With Some Challenging Problems"
 toc: true
-toc_sticky: true
 ---
 
 <!-- We need to put space before $$ and after $$ to make sure the equation is on the center. -->
 
 
-# The dimension problem and its inequality
-## Known results commonly used
+## The dimension problem and its inequality
+### Known results commonly used
 Let $V$ and $W$ be finite-dimensional vector spaces over a field.
 1. (Subspace Dimension Theorem) 
 $$
@@ -27,7 +26,7 @@ $$
 4. If $W\subseteq V$ and $\mathcal{B} = \{b_1,\dots, b_k\}$ is a basis for $W$, then $\mathcal{B}$ can be extended to a basis $\mathcal{C} = \{b_1,\dots, b_k, b_{k+1},\dots, b_n\}$ for $V$, where $n = \dim V$.
 5. Let $v_1,\dots, v_k\in V$ be linearly independent vectors. Then $k\leq \dim V$.
 
-## Strategies
+### Strategies
 1. Always simplify the problem using Subspace Dimension Theorem and Rank-Nullity Theorem.
 2. When you do not know what is the dimension of a subspace of $V$, you might bound it using $\dim V$.
 3. Extending a linearly independent set to a basis is a common approach to deal with dimension problem.
@@ -69,8 +68,8 @@ $$
 $$
 
 
-# The matrix manipulation
-## Known results commonly used
+## The matrix manipulation
+### Known results commonly used
 1. $\det (AB) = \det(A)\det (B)$
 2. $\det(\alpha A) = \alpha^n \det(A)$ where $A\in M_n(\mathbb{F})$ and $\alpha \in\mathbb{F}$.
 3. $\operatorname{rank}(A+B) \leq \operatorname{rank}(A) + \operatorname{rank}(B)$
@@ -80,7 +79,7 @@ $$
 7. Given two linear maps $\psi:U\to V$ and $\phi:V\to W$. Then $\phi\circ \psi = 0$ implies that $\operatorname{im}\psi \subseteq \ker\phi$.
 
 
-## Strategies
+### Strategies
 1. Deduce the result based on the given conclusion. 
 2. Always write out something to approach the hypothesis.
 3. Usual manipulations:

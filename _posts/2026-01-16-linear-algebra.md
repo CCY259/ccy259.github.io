@@ -123,4 +123,4 @@ Let $V$ and $W$ be finite-dimensional vector spaces over a field $\mathbb{F}$. L
 Let $T:V\to V$ be a linear map over a field $\mathbb{F}$ such that every nonzero vector in $V$ is an eigenvector of $T$. Prove that $T$ is a scalar multiple of the identity operator, i.e., $T = \alpha I_{\mathcal{V}}$ for some $\alpha\in \mathbb{F}$.
 
 #### Problem 10
-Let $\psi,\phi:V\to W$ be linear maps over a field $\mathbb{F}$ such that for every $x\in V$, there exists $\alpha\in \mathbb{F}$ such that $\psi(x) = \alpha \phi(x)$. Show that there exists $\beta\in\mathbb{F}$ such that for every $x\in V$, $\psi(x) = \beta\phi(x)$.
+Let $\psi,\phi\in\mathcal{L}(V,W)$ be linear maps over a field $\mathbb{F}$ such that for every $x\in V$, there exists $\alpha\in \mathbb{F}$ such that $\psi(x) = \alpha \phi(x)$. Show that there exists $\beta\in\mathbb{F}$ such that for every $x\in V$, $\psi(x) = \beta\phi(x)$.

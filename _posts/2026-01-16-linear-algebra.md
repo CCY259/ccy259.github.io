@@ -78,10 +78,9 @@ $$
 1. $\det (AB) = \det(A)\det (B)$
 2. $\det(\alpha A) = \alpha^n \det(A)$ where $A\in M_n(\mathbb{F})$ and $\alpha \in\mathbb{F}$.
 3. $\operatorname{rank}(A+B) \leq \operatorname{rank}(A) + \operatorname{rank}(B)$
-4. $$\operatorname{rank}(AB)\leq \min\{\operatorname{rank}(A),\operatorname{rank}(B)\}$$
+4. $\operatorname{rank}(AB)\leq \operatorname{rank}(A)$ and $\operatorname{rank}(AB)\leq\operatorname{rank}(B)$, equivalently, $$\operatorname{rank}(AB)\leq \min\{\operatorname{rank}(A),\operatorname{rank}(B)\}.$$
 5. $\operatorname{rank}(PAQ) = \operatorname{rank}(A)$ where $P$ and $Q$ are invertible matrices.
-6. Kernel and image of a linear map are classical subspaces considered when solving problems.
-7. Given two linear maps $\psi:U\to V$ and $\phi:V\to W$. Then $\phi\circ \psi = 0$ implies that $\operatorname{im}\psi \subseteq \ker\phi$.
+6. Given two linear maps $\psi:U\to V$ and $\phi:V\to W$. Then $\phi\circ \psi = 0$ implies that $\operatorname{im}\psi \subseteq \ker\phi$.
 
 
 ### Strategies
@@ -104,8 +103,24 @@ Let $A\in M_n(\mathbb{R})$ be a matrix of rank $k$ such that $A^2 = A$. Show tha
 #### Problem 7
 Let $A\in M_{n,m}(\mathbb{R})$ and $B\in M_{m,n}(\mathbb{R})$. If $I_n - AB$ is invertible, show that $I_m-BA$ is invertible.
 
+
+
+## Random Advanced Stuffs
+1. To investigate the relationship of a property for two or more vectors, there are certain arguments we could try out:
+    - Consider the sum of vectors (or linear combinations of vectors)
+    - Split the argument into cases based on whether they are linearly independent or linearly dependent.
+2. When dealing with equations involving exactly one linear map $\psi$, we will frequently rewrite the equation as $\psi(...) = 0$ to see what happens next. Note that this identity leads us to study the kernel of $\psi$.
+3. Kernel and image of a linear map are classical subspaces considered when solving problems.
+
+
 #### Problem 8
 Let $V$ and $W$ be finite-dimensional vector spaces over a field $\mathbb{F}$. Let $f:V\rightarrow W$ and $g:W\rightarrow V$ be linear maps such that $f(g(w)) =w$ for all $w\in W$. Show that there exist subspaces $V_1,V_2$ of $V$ which satisfy the following three conditions:
 1. $V = V_1\oplus V_2$.
 2. $g(f(v)) = 0$ for any $v\in V_1$.
 3. $g(f(v)) = v$ for any $v\in V_2$.
+
+#### Problem 9
+Let $T:V\to V$ be a linear map over a field $\mathbb{F}$ such that every nonzero vector in $V$ is an eigenvector of $T$. Prove that $T$ is a scalar multiple of the identity operator, i.e., $T = \alpha I_{\mathcal{V}}$ for some $\alpha\in \mathbb{F}$.
+
+#### Problem 10
+Let $\psi,\phi:V\to W$ be linear maps over a field $\mathbb{F}$ such that for every $x\in V$, there exists $\alpha\in \mathbb{F}$ such that $\psi(x) = \alpha \phi(x)$. Show that there exists $\beta\in\mathbb{F}$ such that for every $x\in V$, $\psi(x) = \beta\phi(x)$.

@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Some Techniques in Linear Algebra"
+title:  "Some Strategies in Linear Algebra"
 date:   2026-01-16 08:30:00 +0800
 categories: Linear-Algebra LaTeX
 header:
@@ -106,6 +106,7 @@ Let $A\in M_{n,m}(\mathbb{R})$ and $B\in M_{m,n}(\mathbb{R})$. If $I_n - AB$ is 
 
 
 ## Random Advanced Stuffs
+### Strategies
 1. To investigate the relationship of a property for two or more vectors, there are certain arguments we could try out:
     - Consider the sum of vectors (or linear combinations of vectors)
     - Split the argument into cases based on whether they are linearly independent or linearly dependent.

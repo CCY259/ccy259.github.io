@@ -1,8 +1,8 @@
 ---
 layout: single
 title:  "Kronecker Lemma"
-date:   2026-02-23 08:30:00 +0800
-categories: Probability LaTeX
+date:   2026-02-16 08:30:00 +0800
+categories: Probability Analysis
 header:
    overlay_color: "#261E47"
 toc: false
@@ -29,12 +29,12 @@ a_n^{-1} \sum_{m=1}^n x_m &= a_n^{-1} \sum_{m=1}^n a_m(b_m - b_{m-1})  \\
 \end{aligned}
 $$
 
-Let $c_n = a_n^{-1} \sum_{m=1}^n (a_m - a_{m-1})b_{m-1}$ for $n\geq 1$ and let $\ell$ be the limit of $b_n$. Since $(b_n)$ is bounded, the supremum $B := \sup_n |b_n|$ exists. 
+Let $c_n = a_n^{-1} \sum_{m=1}^n (a_m - a_{m-1})b_{m-1}$ for $n\geq 1$ and let $\ell$ be the limit of $b_n$. Since $(b_n)$ is bounded, the supremum $B:=\sup_n \lvert b_n\rvert$ exists. 
 
-Now it suffices to show that $c_n\to\ell$ as $n\to \infty$.  Let $\varepsilon > 0$. Then there exists an integer $M$ such that for all $m \geq M$, $|b_m - \ell| < \varepsilon$. Since $\frac{2Ba_M}{a_n}\to 0$ as $n\to \infty$, there exists an integer $N$ such that for all $n \geq N$, $\frac{2Ba_M}{a_n} < \varepsilon$.
+Now it suffices to show that $c_n\to\ell$ as $n\to \infty$.  Let $\varepsilon > 0$. Then there exists an integer $M$ such that for all $m \geq M$, $\lvert b_m - \ell\rvert < \varepsilon$. Since $\frac{2Ba_M}{a_n}\to 0$ as $n\to \infty$, there exists an integer $N$ such that for all $n \geq N$, $\frac{2Ba_M}{a_n} < \varepsilon$.
 
 Note that $\sum_{m=1}^n \frac{a_m - a_{m-1}}{a_n} = \frac{a_n - a_0}{a_n} = 1$. 
-For any $n \geq \max\{M,N\}$,
+For any $$n \geq \max\{M,N\}$$,
 $$
 \begin{aligned}
 |c_n -\ell| &=
@@ -64,6 +64,7 @@ Since $\varepsilon$ is arbitrary, this completes the proof.  $\blacksquare$
    3. Use supremum (if exists)
    4. Use Epsilon language
 - The common technique when using Epsilon language is by splitting the sum as follows:
+
 $$
 \sum_{k=1}^n \cdots = \underbrace{\sum_{k=1}^N \cdots}_{\text{Other approaches (e.g. supremum)}} + \underbrace{\sum_{k=N+1}^{n} \cdots}_{\text{Bound using Epsilon language}} 
 $$

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Chua's Homepage</title>
+  <style type="text/css">body{
+    margin:40px auto;
+    max-width:800px;
+    line-height:1.7;
+    font-family: Verdana,Arial,sans-serif;
+    font-size:16px;
+    color:#313030;
+    padding:0 10px}
+    h1,h2,h3{line-height:1.2}
+    a {
+      color:#212121;
+    }
+    .ui-tabs .ui-tabs-panel[aria-hidden="true"] {
+    display: block !important;
+    position: absolute !important;
+    left: -9999px !important;
+    }
+    .bottom-footer {
+    padding: 20px;
+    text-align: right;
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+  
+ </head>
+
+ 
+
+
+ <script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+<body>
+<nav> 
+  <a href="/">Back to Homepage</a>
+</nav>
+
+<h1>Some Strategies in Linear Algebra</h1>
+
+<h2>The dimension problems and the inequalities</h2>
+<h3>Known results commonly used</h3>
+<p>Let $V$ and $W$ be finite-dimensional vector spaces over a field.</p>
+<ol>
+<li>(Subspace Dimension Theorem)
+$$
+\dim(V+W) = \dim V + \dim W - \dim (V\cap W).
+$$</li>
+<li>(Rank-Nullity Theorem) Let $\psi:V\to W$ be a linear map. Then
+$$
+\operatorname{rank}\psi + \operatorname{null}\psi = \dim V.
+$$</li>
+<li>$W\subseteq V \Rightarrow \dim W\leq \dim V$.</li>
+<li>If $W\subseteq V$ and $$\mathcal{B} = \{b_1,\dots, b_k\}$$ is a basis for $W$, then $\mathcal{B}$ can be extended to a basis $$\mathcal{C}=\{b_1,\dots, b_k, b_{k+1},\dots, b_n\}$$ for $V$, where $n = \dim V$.</li>
+<li>Let $v_1,\dots, v_k\in V$ be linearly independent vectors. Then $k\leq \dim V$.</li>
+</ol>
+<h3>Strategies</h3>
+<ol>
+<li>Always simplify the problem using Subspace Dimension Theorem and Rank-Nullity Theorem.</li>
+<li>When you do not know what is the dimension of a subspace of $V$, you might bound it using $\dim V$.</li>
+<li>Extending a linearly independent set to a basis is a common approach to deal with dimension problem.</li>
+<li>If a linear map $\psi$ is involved and you have some elements, you could investigate their images if the elements themselve do not give useful information.</li>
+<li>When you want to study $\psi(W)$ where $W$ is a subspace of $V$, it is convenient to think about the restriction mapping $\psi\rvert_W$ since $\psi\rvert_W(W) = \psi(W)$. Now we can apply the Rank-Nullity Theorem to $\psi\rvert_W$.</li>
+</ol>
+<h4>Problem 1</h4>
+<p>Let $V$ be a $7$-dimensional vector space. Let $U$ and $W$ be subspaces of $V$ such that $\dim U = 4$ and $\dim W = 5$. Prove that $U \cap W \neq {0}$.</p>
+<h4>Problem 2</h4>
+<p>Let $\psi: V \to W$ be a linear map.</p>
+<p>(i) Show that there exists a subspace $U$ of $V$ such that $V = \ker\psi \oplus U$.</p>
+<p>(ii) Let $$\mathcal{B} = \{b_1, \dots, b_k\}$$ be a basis for $U$. Use this basis $\mathcal{B}$ to construct a basis for $\operatorname{im}\psi$. Justify your answer.</p>
+<h4>Problem 3</h4>
+<p>Let $\psi: V \to W$ be a linear map and let $U$ be a subspace of $V$. Prove that</p>
+<p>$$
+\dim(\psi(U)) = \dim U - \dim(U \cap \ker \psi).
+$$</p>
+<h4>Problem 4</h4>
+<p>Let $\psi:V\to V$ be linear map on an $n$-dimensional vector space $V$ over a field $\mathbb{F}$. Let $W$ be a subspace of $V$ and let</p>
+<p>$$
+U =\{v\in V: \psi(v)\in W\}.
+$$</p>
+<p>(i) Show that $U$ is a subspace of $V$.</p>
+<p>(ii) Prove that</p>
+<p>$$
+\begin{equation*}
+\dim W\leq \dim U \leq \dim W + \operatorname{null}\psi.
+\end{equation*}
+$$</p>
+
+<hr>
+<h2>The matrix manipulation</h2>
+<h3>Known results commonly used</h3>
+<ol>
+<li>$\det (AB) = \det(A)\det (B)$</li>
+<li>$\det(\alpha A) = \alpha^n \det(A)$ where $A\in M_n(\mathbb{F})$ and $\alpha \in\mathbb{F}$.</li>
+<li>$\operatorname{rank}(A+B) \leq \operatorname{rank}(A) + \operatorname{rank}(B)$</li>
+<li>$\operatorname{rank}(AB)\leq \operatorname{rank}(A)$ and $\operatorname{rank}(AB)\leq\operatorname{rank}(B)$, equivalently, $$\operatorname{rank}(AB)\leq \min\{\operatorname{rank}(A),\operatorname{rank}(B)\}.$$</li>
+<li>$\operatorname{rank}(PAQ) = \operatorname{rank}(A)$ where $P$ and $Q$ are invertible matrices.</li>
+<li>Given two linear maps $\psi:U\to V$ and $\phi:V\to W$. Then $\phi\circ \psi = 0$ implies that $\operatorname{im}\psi \subseteq \ker\phi$.</li>
+</ol>
+<h3>Strategies</h3>
+<ol>
+<li>Deduce the result based on the given conclusion.</li>
+<li>Always write out something to approach the hypothesis.</li>
+<li>Usual manipulations:
+<ul>
+<li>Create the zero: $0 = A - A$.</li>
+<li>Create the identity: $I_n  = AA^{-1}$.</li>
+<li>Multiplication on left/right. Be careful that $(A-B)(A+B) = A^2 - B^2 + AB - BA$.</li>
+<li>Moving terms to LHS/RHS.</li>
+<li>Scalar multiplication.</li>
+</ul>
+</li>
+</ol>
+<h4>Problem 5</h4>
+<p>Let $A,B\in M_n(\mathbb{R})$ be matrices such that $A^2 = B^2 = I_n$ and $\det A + \det B = 0$. Show that $\det(A+B) = 0$.</p>
+<h4>Problem 6</h4>
+<p>Let $A\in M_n(\mathbb{R})$ be a matrix of rank $k$ such that $A^2 = A$. Show that $\operatorname{rank}(A-I_n) = n - k$.</p>
+<h4>Problem 7</h4>
+<p>Let $A\in M_{n,m}(\mathbb{R})$ and $B\in M_{m,n}(\mathbb{R})$. If $I_n - AB$ is invertible, show that $I_m-BA$ is invertible.</p>
+
+<hr>
+<h2>Random Advanced Stuffs</h2>
+<h3>Strategies</h3>
+<ol>
+<li>To investigate the relationship of a property for two or more vectors, there are certain arguments we could try out:
+<ul>
+<li>Consider the sum of vectors (or linear combinations of vectors)</li>
+<li>Split the argument into cases based on whether they are linearly independent or linearly dependent.</li>
+</ul>
+</li>
+<li>When dealing with equations involving exactly one linear map $\psi$, we will frequently rewrite the equation as $\psi(...) = 0$ to see what happens next. Note that this identity leads us to study the kernel of $\psi$.</li>
+<li>Kernel and image of a linear map are classical subspaces considered when solving problems.</li>
+</ol>
+<h4>Problem 8</h4>
+<p>Let $V$ and $W$ be finite-dimensional vector spaces over a field $\mathbb{F}$. Let $f:V\rightarrow W$ and $g:W\rightarrow V$ be linear maps such that $f(g(w)) =w$ for all $w\in W$. Show that there exist subspaces $V_1,V_2$ of $V$ which satisfy the following three conditions:</p>
+<ol>
+<li>$V = V_1\oplus V_2$.</li>
+<li>$g(f(v)) = 0$ for any $v\in V_1$.</li>
+<li>$g(f(v)) = v$ for any $v\in V_2$.</li>
+</ol>
+<h4>Problem 9</h4>
+<p>Let $T:V\to V$ be a linear map over a field $\mathbb{F}$ such that every nonzero vector in $V$ is an eigenvector of $T$. Prove that $T$ is a scalar multiple of the identity operator, i.e., $T = \alpha I_{\mathcal{V}}$ for some $\alpha\in \mathbb{F}$.</p>
+<h4>Problem 10</h4>
+<p>Let $\psi,\phi\in\mathcal{L}(V,W)$ be linear maps over a field $\mathbb{F}$ such that for every $x\in V$, there exists $\alpha\in \mathbb{F}$ such that $\psi(x) = \alpha \phi(x)$. Show that there exists $\beta\in\mathbb{F}$ such that for every $x\in V$, $\psi(x) = \beta\phi(x)$.</p>
+
+
+<footer class="bottom-footer"> <p>Last update: 2026/05/29</p></footer>
